@@ -1,0 +1,17 @@
+{
+    "name": "Tennis Betting App",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "frontend", // This is the service name where VSCode will connect
+    "workspaceFolder": "/app", // This should match the WORKDIR in your Dockerfile
+    "extensions": [
+      "dbaeumer.vscode-eslint",
+      "angular.ng-template",
+      "ms-vscode.vscode-typescript-next"
+    ],
+    "settings": {
+      "terminal.integrated.shell.linux": "/bin/sh",
+      "typescript.tsdk": "/app/node_modules/typescript/lib"
+    },
+    "postCreateCommand": "npm install", // Run this command after the container is created
+    "remoteUser": "node" // You may need to set this to the user running inside the container
+  }
