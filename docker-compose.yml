@@ -35,6 +35,20 @@ services:
     networks:
       - mynetwork
 
+  tensorflow:
+    build:
+      context: ./tensorflow
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./tensorflow/scripts:/scripts
+      - ./tensorflow/jupyter-config/jupyter_notebook_config.py:/root/.jupyter/jupyter_notebook_config.py
+    networks:
+      - mynetwork
+
+volumes:
+  tensorflow_data:
+
 networks:
   mynetwork:
     driver: bridge

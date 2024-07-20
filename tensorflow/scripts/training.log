@@ -1,0 +1,10 @@
+2024-07-20 18:25:52,847 - INFO - Loading data
+2024-07-20 18:25:52,989 - INFO - Handling missing values
+2024-07-20 18:25:53,004 - INFO - Converting categorical features
+2024-07-20 18:25:53,033 - INFO - Normalizing features
+2024-07-20 18:25:53,041 - INFO - Building and compiling model
+2024-07-20 18:25:53,084 - INFO - Starting training
+2024-07-20 18:25:58,777 - INFO - Evaluating model
+2024-07-20 18:25:58,928 - INFO - Loss: -15861377.0, Accuracy: 0.0
+2024-07-20 18:27:28,990 - INFO - Loading data
+2024-07-20 18:27:29,124 - INFO - Imputing missing values using KNN
