@@ -10,6 +10,3 @@ tennis-betting-backend
 ## Repository initialization
 
 Run `make` to pull repos
-
-
-
